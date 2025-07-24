@@ -1,0 +1,17 @@
+.pics{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .img1{
+      width: 800px;
+    }
+
+    .img2 {
+      width: 450px;
+    }
+
+    .img3 {
+      width: 75px;
+    }
