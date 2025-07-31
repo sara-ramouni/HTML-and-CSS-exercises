@@ -1,0 +1,41 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0edeb;
+        }
+        
+            
+        fieldset {
+            border: 1px solid #a19090;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ecba8b;
+        }
+        
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+        }
+                
+        label {
+            width: 120px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+           
+        .submitBtn {
+           display: block;
+            width: 150px;
+            padding: 10px;
+            margin: 20px auto 0;
+            background-color:antiquewhite;
+            border: none;
+                      
+        }
+        
+       

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+    <link rel="stylesheet" href="form4ex.css">
+   
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+            
+            <div>
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div >
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            
+            <div >
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div >
+                <label>Gender:</label>
+                <div>
+                    <label><input type="radio" name="gender" value="male" checked> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Magazines</legend>
+            <div >
+                <div >
+                    <input type="checkbox" id="mag1" name="magazines" value="Stavanger Afterblad">
+                    <label for="mag1">Stavanger Afterblad</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mag2" name="magazines" value="Teknisk Uleblad">
+                    <label for="mag2">Teknisk Uleblad</label>
+                </div>
+                <div >
+                    <input type="checkbox" id="mag3" name="magazines" value="Se og Hør">
+                    <label for="mag3">Se og Hør</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mag4" name="magazines" value="Familien">
+                    <label for="mag4">Familien</label>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Subscription</legend>
+            <div>
+                <label for="period">Period:</label>
+                <input type="text" id="period" name="period" placeholder="d.month">
+            </div>
+        </fieldset>
+        
+        <button class="submitBtn" type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
